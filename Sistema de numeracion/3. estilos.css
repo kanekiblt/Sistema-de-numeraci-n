@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.input-container,
+.output-container {
+    margin: 40px 0;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+#inputNumber {
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.convert-button {
+    background-color: #000000;
+    color: rgb(255, 253, 253);
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 20px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.convert-button:hover {
+    background-color: #280950;
+}
+
+#result {
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}

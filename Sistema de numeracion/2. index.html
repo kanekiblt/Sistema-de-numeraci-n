@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor</title>
+    <link rel="stylesheet" href="3. estilos.css">
+</head>
+<body>
+    <h1>Sistema de numeración</h1>
+    <div class="input-container">
+        <label for="inputType">De:</label>
+        <select id="inputType">
+            <option value="hex">Hexadecimal</option>
+            <option value="bin">Binary</option>
+            <option value="oct">Octal</option>
+            <option value="bcd">BCD</option>
+            <option value="dec">Decimal</option>
+        </select>
+    </div>
+    <div class="output-container">
+        <label for="outputType">Para:</label>
+        <select id="outputType">
+            <option value="dec">Decimal</option>
+            <option value="hex">Hexadecimal</option>
+            <option value="bin">Binary</option>
+            <option value="oct">Octal</option>
+            <option value="bcd">BCD</option>
+        </select>
+        <br> 
+        <input type="text" id="inputNumber" placeholder="Ingresa el número">
+    </div>
+    <div class="result-container">
+        <label for="result">Resultado:</label>
+        <input type="text" id="result" readonly>
+    </div>
+    <button id="convertButton" class="convert-button">Convertir</button>
+    <script src="4. script.js"></script>
+</body>
+</html>
